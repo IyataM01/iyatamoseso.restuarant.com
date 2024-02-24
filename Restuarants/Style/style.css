@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Pacifico&display=swap');
+
+.banner
+{width: 100%;
+height: 700px;
+background-image: url(../Image/Banner.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+   
+}
+.banner div{
+    width: 40%;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.banner h1{
+    font-size: 4.5em;
+}
+
+.banner p{
+    font-size: large;
+}
+
+.banner button{
+    width: 120px;
+    height: 40px;
+    background-color: red;
+    color: white;
+}
+.banner button:hover
+    {background-color: aqua;}
+
+.banner button:active
+    {background-color: blue;}
+
+
+nav 
+    {background-color: red;
+    color: white;
+    padding: 10px;}
+
+nav ul
+    {display: flex;
+    column-gap: 30px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;}
+
+
+    
+
+#container
+    {display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-color: rgb(244, 236, 236);}
+
+.about
+        {background-color: black;
+        color: white;
+        padding: 5%;}
+        
+
+.one{
+        display: flex;
+        column-gap: 5%;
+        margin-bottom: 2%;}
+
+.one img
+        {border: double 9px white;
+        border-radius: 20px 0px 20px 0px;}
+
+.two   
+        {display: flex;
+        column-gap: 2%;}
+
+.mission{
+        padding:3%;
+        background-color: red;
+        border-radius: 30px 30px 0 30px;}
+
+.vision{
+            padding:3%;
+            background-color:yellow;
+            color: black;
+            border-radius: 30px 30px 30px 0;}
+
+.service
+        {padding: 5%;
+        font-size: large;}
+        
+
+.service h1{
+            color: red;
+            text-align: center;}
+
+.service section{
+            display: flex;
+            column-gap: 3%;}
+
+.service button {
+    background-color: red;
+    color: white;
+    padding: 7px 40px;
+    border-radius: 3px;}
+
+    .staff{
+        padding: 10%;
+        background: rgb(234, 194, 169);
+        margin-top: 20px;
+    }
+
+.staff h4 {
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    margin: 0px;}
+    
+
+.staff h2{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+margin: 0px 0 10px 0;}
+
+.staff section{
+        display: flex;
+        column-gap: 3%;
+        border-radius: 50%;
+      }
+
+      .staff aside{
+        flex:1;
+        background-color: white;
+        padding: 20px;
+        border-radius: 5%;
+      }
+      .staff img{
+        width: 100%;
+
+      }
+
+.profesion{
+        text-align: center;
+        padding: 3%;
+       }
+
+.profesion section{
+        display: flex;
+        column-gap: 2%;
+        text-align: justify;}
+
+.profesion aside{
+        background-color: whitesmoke;
+        border-radius: 5%;
+        font-size: larger;
+        border: 10% solid;
+    padding: 2%;}
+
+    .profesion p{
+        width: 90%;}
+    
+
+    .twos{
+        background-color: red !important;
+        color: white;}
+   
+
+    .testi{
+
+        display: flex;
+        column-gap: 10px;}
+
+    footer{
+            background-color: #021027;
+            color: white;
+            padding: 5%;
+            margin-top: 20px;}
+
+footer section{
+    display: flex;
+    column-gap: 3%;}
+
+
+footer aside{
+    flex: 1;}
+
+footer h2{
+    color: yellow;
+    border: too 2px solid yellow ;
+    border-bottom: 2px solid yellow;
+    text-transform: uppercase;
+    font-size: 1.5vw;}
+
+i{
+        margin-right: 6px;} 
+
+.menu{
+        padding: 10%;
+}
+
+    .menu-sec1 h5{
+        text-align: center; 
+        font-size: large;
+        position: relative;
+        width: 600px;
+        margin: auto;
+        font-family: 'Dancing Script', cursive;
+        color: orange;
+    }
+        
+    .menu-sec1 h5:before{
+        content:"";
+        width: 120px;
+        height: 2px;
+        display: block;
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        z-index: -2;
+        color: orange;
+    }
+
+
+
+    .menu-sec1 h5:after{
+            content:"";
+            width: 120px;
+            height: 2px;
+            display: block;
+            background-color: black;
+            position: absolute;
+            top: 50%;
+            right: 30%;
+            z-index: -2;
+            color: orange;
+        }
+
+
+    .menu-sec1 span{
+            background-color: white;
+            padding: 0 5px;
+             }
+
+
+    .menu-sec1 h3{
+            font-size: 3vw;
+            text-align: center;
+            margin: 0;
+            font-family:'M PLUS Rounded 1c', sans-serif;
+    }
+
+    .menu-sec2{
+            display: flex;
+            column-gap: 4%;
+            justify-content: center;
+            margin-bottom: 20px;
+            
+    }
+   
+    .menu-sec2 aside {
+        display: flex;
+        column-gap: 3%;
+         align-items: center;
+         padding: 0px 2%;
+         border-bottom: 1px solid orange;
+
+      
+    }
+
+    .menu-sec2 i{
+        color: orange;
+        font-size: 40px;
+        border-bottom: 1px solid orange;
+    }
+
+    .menu-sec2 aside :hover{
+         padding: 0px 2%;
+         border-bottom: 1px solid orange;}
+
+.menu-sec3{
+    display: flex;
+    column-gap: 2%;
+}
+
+.menu-sec3 div{
+            display: flex;
+            column-gap: 3%;
+            align-items: center;}
+
+.menu-sec3 figure{
+    flex: 1;
+}
+
+.menu-sec3 summary{
+    flex: 8;
+}
+
+.menu-sec3 article{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+        
+        
+
+        
+           
+       
+ 
+       
+   
+    
+    
+        
+
+
+
+
+
+    
+
